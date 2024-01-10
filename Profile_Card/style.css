@@ -1,0 +1,100 @@
+/* google fontes - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f3ee;
+}
+
+#profileCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    width: 100%;
+    background-color: #cbf3f0;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0 , 0.2);
+}
+#profileCard::before{
+    content: "";
+    position: absolute;
+    height: 36%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#00b4d8;
+    border-radius: 20px 20px 0 0 ;
+}
+#image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #00b4d8;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+#image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+#taxtData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#taxtData span:first-child{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#taxtData span:last-child{
+    font-size: 15px;
+    font-weight: 400;
+}
+#mediaBotton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: #bde0fe;
+    text-decoration: none;
+}
+#mediaBotton a:nth-child(2){
+    color: #1da1f2;
+}
+#mediaBotton a:nth-child(3){
+    color: #e1306e;
+}
+
+
